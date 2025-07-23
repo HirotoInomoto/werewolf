@@ -8,7 +8,7 @@ BUTTON = Button(font_file=JAPANESE_FONT_FILE, font_size=FONT_SIZE_S, x=
 
 async def draw_title_scene():
     text_drawer = TextDrawer(JAPANESE_FONT_FILE)
-    text_drawer.draw_text(text='人狼ゲーム', font_size=FONT_SIZE_L, x=
+    text_drawer.draw_text(text='ワンナイト人狼', font_size=FONT_SIZE_L, x=
         TITLE_X, y=TITLE_Y)
     BUTTON.draw('村へ')
 
